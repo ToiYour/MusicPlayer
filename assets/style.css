@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.app {
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px #ccc;
+    margin: auto;
+    padding: 10px;
+}
+
+.dashboard {
+    margin: 10px 0;
+}
+
+.search-music {
+    position: relative;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search-music:focus {
+    outline-color: #eb1b4c;
+}
+
+.search-music input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.search-music i {
+    position: absolute;
+    cursor: pointer;
+    top: -3px;
+    right: 10px;
+    padding: 10px;
+}
+
+.dashboard__title {
+    text-align: center;
+}
+
+.dashboard__title p {
+    color: #eb1b4c;
+    font-weight: 600;
+}
+
+.dashboard__title h3 {
+    margin: 5px 0 15px;
+}
+
+.dashboard .persent {}
+
+.dashboard .title-music {}
+
+.dashboard .img-music {
+    text-align: center;
+}
+
+.dashboard .img-music img {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.dashboard .music-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 10px 20px;
+}
+
+.dashboard .music-nav ul li i {
+    color: #535252;
+    font-size: 18px;
+}
+
+.dashboard .music-nav ul li:nth-child(3) i {
+    font-size: 42px;
+    color: #eb1b4c;
+}
+
+.dashboard .changer-time input {
+    --webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    background-color: #d7d6d6;
+}
+
+.dashboard .changer-time input::-webkit-slider-thumb {
+    --webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 5px;
+    background-color: #eb1b4c;
+    cursor: pointer;
+}
+
+.playlist {
+    margin: 15px 0;
+}
+
+.item-music {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ccc;
+    padding: 0 15px 0 25px;
+    margin: 10px 0;
+}
+
+.item-music img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+.item-music i {}
+
+.item-music .info-music {
+    margin-left: -140px;
+}
+
+.item-music .info-music p {
+    margin: 5px 0;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.fa-ellipsis-vertical {}
